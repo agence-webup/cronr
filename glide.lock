@@ -1,0 +1,10 @@
+hash: dfd7d105bde48982e85d2c1ecc276bfa3b1176993a0129183729214c2fae0d01
+updated: 2016-11-17T16:04:56.427152285+01:00
+imports:
+- name: github.com/jawher/mow.cli
+  version: 772320464101e904cd51198160eb4d489be9cc49
+- name: github.com/robfig/cron
+  version: 9585fd555638e77bba25f25db5c44b41f264aeb7
+- name: gopkg.in/yaml.v2
+  version: a83829b6f1293c91addabc89d0571c246397bbf4
+testImports: []

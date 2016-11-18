@@ -1,0 +1,12 @@
+
+jobs:
+  - cron: "0/5 * * * * *"       # e.g:   0 30 * * * *    WARNING: first one is seconds (instead of minutes for classic cron, https://godoc.org/github.com/robfig/cron) 
+    command: 
+      - sh
+      - -c 
+      - /bin/echo foo >> output_1
+    working_dir: tests        # optional, cronr working dir by default
+  - cron: "0/2 * * * * *" 
+    command: 
+      - /bin/echo
+      - bar

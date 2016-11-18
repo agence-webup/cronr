@@ -1,0 +1,5 @@
+package: webup/cronr
+import:
+- package: github.com/robfig/cron
+- package: github.com/jawher/mow.cli
+- package: gopkg.in/yaml.v2
